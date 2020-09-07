@@ -1,0 +1,76 @@
+﻿
+/*------  Responsive --------------------------------------*/
+/* Laptop */
+@media only screen and (max-width: 1036px) {
+}
+
+/* Tablet */
+@media only screen and (max-width: 756px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 540px) {
+    .header-navbar-fixed #main-container {
+        padding-top: 115px;
+    }
+    .p-heading {
+        padding: 0;
+    }
+
+    .breadcrumb > li.page-name {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .breadcrumb > li.d-i::before,
+    .p-heading p {
+        display: none;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .tab-pane button {
+        float: none !important;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .page-header-img .block-content.block-content-full {
+        padding: 20px 0;
+    }
+
+    .block > .nav-tabs > li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-header .header-search.header-search-xs-visible {
+        position: absolute;
+        top: 115px;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #f9f9f9;
+        margin: 0;
+    }
+    .b-item-wrap {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .b-item:after {
+        display: none;
+    }
+    .bar-wrap p {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+/* Small Mobile */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  
+}

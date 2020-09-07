@@ -1,0 +1,28 @@
+﻿@{
+//ViewBag.UserMenuItems = (new Baraa.BLL.BLPermission()).GetUserMenuItems(UserName.GetUserName(User));
+}
+
+<div class="sidebar-content">
+    <button class="btn btn-link menu-mob push-10-t push-10-r text-gray pull-right hidden-md hidden-lg" type="button" data-toggle="layout" data-action="sidebar_close">
+        <i class="ion-close"></i>
+    </button>
+    <!-- Side Header -->
+    <a href="" class="logo sidebar-mini-hide">
+        @*<img src="~/Content/Assets/images/taketo-txtwhite.png" class="img-responsive" />*@
+    </a>
+    <!-- END Side Header -->
+    <span class="line"></span>
+    <!-- Side Content -->
+    <div class="side-content side-content-full">
+        <ul class="nav-main">
+            @*<li class="nav-main-heading"><span class="sidebar-mini-hide">جروبينج</span></li>*@
+        </ul>
+    </div>
+    <!-- END Side Content -->
+</div>
+<script>
+    
+    $("ul.sub-menu").prev().addClass("nav-submenu").attr("data-toggle", "nav-submenu");
+    $("li.nav-main-heading").prev().find("a").css("border", "none");
+    
+</script>
